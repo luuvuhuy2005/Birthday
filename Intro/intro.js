@@ -3,7 +3,7 @@ var tik = setInterval(() => {
   lyf.classList.toggle("digit");
   if (lyf.innerText == 0) {
     document.getElementById('container').classList.toggle("containeroverlay")
-    window.location="./MyBirthday/index.html";
+    window.location="./Mybirthday/index.html";
     clearInterval(tik)
   } else {
     lyf.innerText -= 1
